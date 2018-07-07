@@ -1,11 +1,11 @@
   body {
     margin: 0px;
     padding: 0px;
-    background: #ad8867 url("background-wood.jpg");
-    /* background-image: url("background-wood.jpg"); */
+    background-image: url("background-wood.jpg");
     font-family: Oswald;
     font-size: 12pt;
     color: #515151;
+    border-top: 25px solid #32251B;
   }
 
   a {
@@ -65,13 +65,14 @@
     text-align:center;
     margin-top: 2vw;
     margin-bottom: 2vw;
+    color: white;
+    font-weight: bold;
   }
 
   .logo {
     position: absolute;
     top: 3em;
     left: 6vw;
-    width:100%;
   }
 
   .logo > h1 {
@@ -164,11 +165,11 @@
     color: #6F6F6F;
   }
 
-
+ 
   .wrapper {
     position: relative;
     height: 150px;
-  }
+  } 
 
 
 

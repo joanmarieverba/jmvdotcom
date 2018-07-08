@@ -46,7 +46,10 @@
     line-height: 180%;
   }
 
-
+  .btn {
+    width: 150px;
+    height: 40px;
+  }
 
   .container {
     margin: 0em auto;
@@ -58,6 +61,19 @@
     width: 42vw;
     padding: 2vw;
     background-color: #F3F3F3;
+  }
+
+  .content2 {
+    float: left;
+    width: 42vw;
+    padding: 2vw;
+    border-right: 1px dotted #32251B;
+  }
+
+  .content3 {
+    float: left;
+    width: 42vw;
+    padding: 2vw;
   }
 
   .current-page-item {
@@ -96,6 +112,11 @@
   .logo > a {
     text-decoration: none;
     color: #FFF;
+  }
+
+  .media-object {
+    width: 75px;
+    height: 100px;
   }
 
   .menu {

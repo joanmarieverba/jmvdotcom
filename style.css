@@ -165,8 +165,9 @@
   }
 
   .title > h2 {
-    font-size: 2.8em;
+    font-size: 2em;
     color: #323232;
+    margin-bottom: .15em;
   }
 
   .title .byline {

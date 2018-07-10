@@ -163,6 +163,11 @@
     padding: 2vw;
   }
 
+  .square {
+    width: 75px;
+    height: 75px;
+  }
+
   .stwo-col {
     margin-top: 6vw;
   }

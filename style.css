@@ -190,6 +190,11 @@
     width: 230px;
   }
 
+  .textbox {
+    padding-left: 1vw;
+    padding-right: 1vw;
+  }
+
   .title {
     margin-bottom: 3em;
   }

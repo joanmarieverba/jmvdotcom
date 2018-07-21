@@ -148,6 +148,10 @@
 
   }
 
+  .noTopMargin {
+    margin-top: 0;
+  }
+
   .page {
     overflow: hidden;
     background-color: #FFF;

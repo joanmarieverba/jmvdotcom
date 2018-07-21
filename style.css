@@ -215,6 +215,9 @@
     margin-bottom: 1vw;
   }
 
+  .vtopspace {
+    margin-top: 12vw;
+  }
  
   .wrapper {
     position: relative;

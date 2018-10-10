@@ -83,7 +83,8 @@
 
   @media screen and (max-width: 640px) {
     .current-page-item {
-        color: #FFFFFF;
+        opacity: 0.5;
+        color: gold;
     }
   }
 
@@ -109,6 +110,16 @@
     left: 6vw;
   }
 
+  .logo > h1 {
+    display: inline-block;
+    color: #FFF;
+  }
+
+  .logo > a {
+    text-decoration: none;
+    color: #FFF;
+  }
+
   @media screen and (max-width: 640px) {
     .logo {
       top: 4vh;
@@ -121,15 +132,6 @@
     }
   }
 
-  .logo > h1 {
-    display: inline-block;
-    color: #FFF;
-  }
-
-  .logo > a {
-    text-decoration: none;
-    color: #FFF;
-  }
 
   .media-object {
     width: 75px;
@@ -156,7 +158,7 @@
 
   .menu li a {
     display: block;
-    padding: 0em 1.5em;
+    padding: 0em 1.5vw;
     height: 150px;
     letter-spacing: .2em;
     line-height: 150px;

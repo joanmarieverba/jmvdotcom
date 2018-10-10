@@ -213,6 +213,14 @@
     width: 230px;
   }
 
+  @media screen and (max-width: 640px) {
+    .stwo-col .sbox2 {
+      float: left;
+      width: 230px;
+    }
+  }
+
+
   .textbox {
     padding-left: 1vw;
     padding-right: 1vw;

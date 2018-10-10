@@ -214,6 +214,7 @@
   }
 
   @media screen and (max-width: 640px) {
+
     .stwo-col .sbox2 {
       float: left;
       width: 230px;

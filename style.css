@@ -81,6 +81,12 @@
     color: #FFFFFF;
   }
 
+  @media screen and (max-width: 640px) {
+    .current-page-item {
+        color: #FFFFFF;
+    }
+  }
+
   .footer {
     text-align:center;
     margin-top: 2vw;
@@ -99,13 +105,24 @@
 
   .logo {
     position: absolute;
-    top: 3em;
+    top: 8vh;
     left: 6vw;
+  }
+
+  @media screen and (max-width: 640px) {
+    .logo {
+      top: 4vh;
+      left: 21vw;
+    }
+    .logo > h1 {
+      display: inline-block;
+      font-size: 4vh;
+      color: #FFF;
+    }
   }
 
   .logo > h1 {
     display: inline-block;
-    font-size: 5vh;
     color: #FFF;
   }
 

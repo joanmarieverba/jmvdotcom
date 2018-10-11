@@ -51,6 +51,13 @@
     height: 40px;
   }
 
+  @media screen and (max-width: 640px) {
+    .btn {
+        width: 90px;
+        height: 40px;
+    }
+  }
+
   .container {
     margin: 0em auto;
     width: 100vw;
